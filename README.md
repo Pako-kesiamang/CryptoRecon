@@ -1,24 +1,42 @@
 # RoadToQuantTrader
 
-This repository is a compilation of:
+# Road to Quant Trader
 
-Financial data analysis using statistical and machine learning techniques.
+Welcome to my repository, where I document my journey into **quantitative trading**. This repo includes projects, code snippets, notes, and resources I use to learn and build algorithmic trading and financial data analysis skills.
 
-Backtesting frameworks to test trading strategies.
+---
 
-Portfolio optimization and risk management tools.
+## Goals
 
-Algorithmic trading systems development.
+- Learn the fundamentals of quantitative finance
+- Understand and apply trading strategies
+- Build and backtest algorithmic trading models
+- Explore portfolio theory and optimization
+- Apply machine learning techniques to financial data
+- Share knowledge and projects for others on a similar path
 
-Resources such as articles, books, tutorials, and guides that helped me along the way.
+---
 
-Contents
-Data Analysis: Explorations into time series data, moving averages, correlations, and other relevant financial metrics.
+## Topics Covered
 
-Trading Strategies: Implementations of simple to complex trading strategies.
+- 📈 Time Series Analysis  
+- 🧮 Statistical Arbitrage  
+- 💹 Backtesting Frameworks  
+- 🗂️ Portfolio Optimization  
+- 🤖 Machine Learning in Finance  
+- 💻 Tools: Python, MATLAB, NumPy, Pandas, scikit-learn, yFinance, Backtrader
 
-Backtesting: Frameworks to simulate and evaluate strategies using historical data.
+---
 
-Portfolio Optimization: Techniques for optimizing portfolios using various models (e.g., Markowitz, Black-Litterman).
+## 📂 Repository Structure
 
-Machine Learning: Integration of ML techniques in predicting financial trends and improving trading algorithms.
+```bash
+Road-to-Quant-Trader/
+│
+├── projects/             # Trading strategy implementations
+├── notebooks/            # Jupyter/MATLAB notebooks with experiments
+├── data/                 # Sample datasets and data-fetching scripts
+├── notes/                # Study notes and learning resources
+├── utils/                # Helper scripts and functions
+└── README.md             # This file
+
