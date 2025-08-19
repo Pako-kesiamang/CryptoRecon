@@ -120,7 +120,7 @@ df = df.dropna().copy()   # drop rows where indicators are NaN
 # 2. Train/test split (time-ordered)
 # -------------------------
 # Choose test_size proportion or explicit days
-TEST_PROPORTION = 0.05  # last 5% as test, like your original
+TEST_PROPORTION = 0.002 # last 5% as test, like your original
 test_size = int(len(df) * TEST_PROPORTION)
 train_df = df.iloc[:-test_size]
 test_df  = df.iloc[-test_size:]
@@ -144,7 +144,7 @@ for k,v in arima_eval.items():
 
 # Plot ARIMA results
 plt.figure(figsize=(12,4))
-plt.plot(train_df.index, train_df['Price'], label='Train Price')
+#plt.plot(train_df.index, train_df['Price'], label='Train Price')
 plt.plot(test_df.index, test_df['Price'], label='Test Price')
 plt.plot(test_df.index, arima_forecast, label='ARIMA Forecast')
 plt.title('ARIMA Forecast vs Actual')
@@ -173,7 +173,7 @@ for k,v in prophet_eval.items():
 
 # Plot Prophet results
 plt.figure(figsize=(12,4))
-plt.plot(train_df.index, train_df['Price'], label='Train Price')
+#plt.plot(train_df.index, train_df['Price'], label='Train Price')
 plt.plot(test_df.index, test_df['Price'], label='Test Price')
 plt.plot(test_df.index, prophet_pred, label='Prophet Forecast')
 plt.title('Prophet Forecast vs Actual')
@@ -209,7 +209,7 @@ X_test_sc  = pd.DataFrame(scaler.transform(X_test), index=X_test.index, columns=
 
 # Optional: quick hyperparameter tuning with TimeSeriesSplit (small grid to keep runtime reasonable)
 print("Hyperparameter tuning XGBoost (small grid)...")
-tscv = TimeSeriesSplit(n_splits=3)
+tscv = TimeSeriesSplit(n_splits=5)
 param_grid = {
     'n_estimators': [100, 200],
     'max_depth': [3, 4],
