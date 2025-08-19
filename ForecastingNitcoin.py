@@ -1,8 +1,3 @@
-# bitcoin_forecast_pipeline.py
-# Run: python bitcoin_forecast_pipeline.py
-# Requires: pandas, numpy, matplotlib, statsmodels, prophet, xgboost, scikit-learn, ta (or pandas_ta)
-# pip install pandas numpy matplotlib statsmodels prophet xgboost scikit-learn ta
-
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -17,9 +12,7 @@ from sklearn.model_selection import TimeSeriesSplit, GridSearchCV
 from sklearn.preprocessing import StandardScaler
 import ta
 
-# -------------------------
-# Helpers
-# -------------------------
+
 def compute_technical_indicators(df):
     """Add some common technical indicators to df (in-place)"""
     # price series must be numeric
@@ -116,11 +109,15 @@ df = df[['Price', 'High', 'Low', 'Volume']] if 'Volume' in df.columns else df[['
 compute_technical_indicators(df)
 df = df.dropna().copy()   # drop rows where indicators are NaN
 
-# -------------------------
 # 2. Train/test split (time-ordered)
+<<<<<<< HEAD
 # -------------------------
 # Choose test_size proportion or explicit days
 TEST_PROPORTION = 0.002 # last 5% as test, like your original
+=======
+
+TEST_PROPORTION = 0.05  # last 5% as test
+>>>>>>> 89e66433026675eefbb7119d960c9fb582ac5f97
 test_size = int(len(df) * TEST_PROPORTION)
 train_df = df.iloc[:-test_size]
 test_df  = df.iloc[-test_size:]
@@ -128,8 +125,6 @@ print(f"Rows - total: {len(df)}, train: {len(train_df)}, test: {len(test_df)}")
 
 # -------------------------
 # 3. ARIMA (fit on train, forecast into test)
-# -------------------------
-# Try a simple ARIMA order; you could auto-tune with pmdarima.auto_arima
 arima_order = (2, 1, 1)
 print("Fitting ARIMA...")
 arima_model = ARIMA(train_df['Price'], order=arima_order)
@@ -242,7 +237,7 @@ plt.show()
 
 # -------------------------
 # 6. Directional accuracy and strategy returns (already in evaluate_forecast)
-#    But show more explicit numbers and the cumulative returns series.
+#
 # -------------------------
 # Build signals using predicted > today
 today_price = X_test['lag_price_1'].values
@@ -306,7 +301,6 @@ def walk_forward_xgb(df_ml, features, initial_train_size=None, retrain_every=1, 
     preds_series = pd.Series(preds, index=pred_index)
     return preds_series
 
-# Example walk-forward run (this will be slower)
 RUN_WALK_FORWARD = False
 if RUN_WALK_FORWARD:
     print("Running walk-forward XGBoost (this may take a while)...")
