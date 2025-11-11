@@ -1,2 +1,9 @@
 solana-to-koinly/apikey.txt
 solana-to-koinly/apikey.txt
+Bitcoin Historical Data.csv
+ForecastingNitcoin.py
+LSTMplusXGBoost.py
+btc_last_day_predictions.csv
+btc_model_comparison_last_day.csv
+btc_model_comparison_summary.csv
+btc_model_predictions_test.csv
