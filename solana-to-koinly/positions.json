@@ -1,0 +1,190 @@
+
+[
+    {
+        "blockTime": 1712557556,
+        "slot": 258968170,
+        "txHash": "5SyoiqVT8ytPVEwPdzoNMAZcLKnknD9pKLYJjdYFFzb3E4ZmrLLZKGZRuB28RoNeyC5a5tisWZSx1fuEYKZNLBsC",
+        "fee": 362140,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "removeLiquidityByRange",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "claimFee",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "closePosition",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "57406080",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1712557495,
+        "slot": 258968048,
+        "txHash": "5kfKToWgXN1kDxitxTnCwi6v9BY1pMDmfKoYgm3GTNLjkyvbgdxNbQmGzGdjBqevKnsudJtYJMtsnUyfDJJrF5s5",
+        "fee": 295416,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "removeLiquidityByRange",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "295416",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1712557213,
+        "slot": 258967509,
+        "txHash": "4QuscMCdRjeNLZatpf8pcVUVp6kjckX8ouhFdsEcyU9C4suY8wjsHES5ufCzSUimfeKM9xPgkCYUgC4PgXtCmDXa",
+        "fee": 136110,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "claimFee",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "136110",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1712556394,
+        "slot": 258965887,
+        "txHash": "3tGm1EJZSF1GjKvrZJpkJEStoD3byaZqB6v36yAMYwLeAYNJc2SkBzGGsHqzwAK71hQwd3gkAbHsefjMEs24kR5z",
+        "fee": 383497,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "addLiquidityByStrategy",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "383497",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1712556351,
+        "slot": 258965798,
+        "txHash": "4CtPKVfJuxDMtYJgbGtBJRNky6ULC5cwyie4FABhKA5g5KiaeyzJip9u6ePqjp2iKhEqt8GTKgDPAxmB6JC8ds2H",
+        "fee": 129999,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "addLiquidityByStrategy",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "129999",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1712556313,
+        "slot": 258965719,
+        "txHash": "47yhWDkcm8t2ek3YyUkV6Evy4U7Djv2AyAnh4dqjdLpjkKReNBRNQyaM6LHUvZAatguH8FTt5kqL5VmUTiewY4cV",
+        "fee": 10497,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "initializePosition",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "addLiquidityByStrategy",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "57416577",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "11111111111111111111111111111111",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    }
+]
