@@ -1,27 +1,17 @@
-
 [
     {
-        "blockTime": 1712557556,
-        "slot": 258968170,
-        "txHash": "5SyoiqVT8ytPVEwPdzoNMAZcLKnknD9pKLYJjdYFFzb3E4ZmrLLZKGZRuB28RoNeyC5a5tisWZSx1fuEYKZNLBsC",
-        "fee": 362140,
+        "blockTime": 1715461078,
+        "slot": 265215174,
+        "txHash": "2xqHi7baBx8aAXxuCVGYU6kAL77qkcL55kmiZ2Vz3BeLUDs1Ms238eXnwLjmALzkjSbuEg7W8i99jmtpEi2viyqt",
+        "fee": 19277,
         "status": "Success",
         "signer": [
             "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
         ],
+        "tags": [
+            "close_position"
+        ],
         "parsedInstruction": [
-            {
-                "type": "removeLiquidityByRange",
-                "program": "lb_clmm",
-                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-                "priority": 1
-            },
-            {
-                "type": "claimFee",
-                "program": "lb_clmm",
-                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-                "priority": 1
-            },
             {
                 "type": "closePosition",
                 "program": "lb_clmm",
@@ -34,48 +24,22 @@
         "extra_data": {},
         "programIds": [
             "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-            "ComputeBudget111111111111111111111111111111",
-            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+            "ComputeBudget111111111111111111111111111111"
         ],
         "token_bal_change": [],
         "sol_bal_change": []
     },
     {
-        "blockTime": 1712557495,
-        "slot": 258968048,
-        "txHash": "5kfKToWgXN1kDxitxTnCwi6v9BY1pMDmfKoYgm3GTNLjkyvbgdxNbQmGzGdjBqevKnsudJtYJMtsnUyfDJJrF5s5",
-        "fee": 295416,
+        "blockTime": 1715461071,
+        "slot": 265215157,
+        "txHash": "4iJ41tYa9b7XFaaeayMswkXY3tUNSm7BrQyCXKc8tDfGi1repx34uE7LpsDGpiMh2JBNs1zAhdP3LeHPXcJiePdN",
+        "fee": 104939,
         "status": "Success",
         "signer": [
             "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
         ],
-        "parsedInstruction": [
-            {
-                "type": "removeLiquidityByRange",
-                "program": "lb_clmm",
-                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-                "priority": 1
-            }
-        ],
-        "parsedInstructions": [],
-        "sol_value": "295416",
-        "extra_data": {},
-        "programIds": [
-            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-            "ComputeBudget111111111111111111111111111111",
-            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-        ],
-        "token_bal_change": [],
-        "sol_bal_change": []
-    },
-    {
-        "blockTime": 1712557213,
-        "slot": 258967509,
-        "txHash": "4QuscMCdRjeNLZatpf8pcVUVp6kjckX8ouhFdsEcyU9C4suY8wjsHES5ufCzSUimfeKM9xPgkCYUgC4PgXtCmDXa",
-        "fee": 136110,
-        "status": "Success",
-        "signer": [
-            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        "tags": [
+            "claim_fees"
         ],
         "parsedInstruction": [
             {
@@ -83,83 +47,400 @@
                 "program": "lb_clmm",
                 "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
                 "priority": 1
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
             }
         ],
         "parsedInstructions": [],
-        "sol_value": "136110",
+        "sol_value": "5694148",
         "extra_data": {},
         "programIds": [
             "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
             "ComputeBudget111111111111111111111111111111",
-            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
         ],
         "token_bal_change": [],
         "sol_bal_change": []
     },
     {
-        "blockTime": 1712556394,
-        "slot": 258965887,
-        "txHash": "3tGm1EJZSF1GjKvrZJpkJEStoD3byaZqB6v36yAMYwLeAYNJc2SkBzGGsHqzwAK71hQwd3gkAbHsefjMEs24kR5z",
-        "fee": 383497,
+        "blockTime": 1715460695,
+        "slot": 265214354,
+        "txHash": "MoqZa3q2itZUkpXa3L5cbaoddzxhQhdvpAWgdV9KvajWnsJJhtPhYsoQSLHYDYXBKAhjzehx62XQbUCBd4NRXXH",
+        "fee": 145000,
         "status": "Success",
         "signer": [
             "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
         ],
+        "tags": [
+            "remove_liquidity"
+        ],
         "parsedInstruction": [
             {
-                "type": "addLiquidityByStrategy",
+                "type": "removeLiquidityByRange",
                 "program": "lb_clmm",
                 "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
                 "priority": 1
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
             }
         ],
         "parsedInstructions": [],
-        "sol_value": "383497",
+        "sol_value": "222807905907",
         "extra_data": {},
         "programIds": [
             "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
             "ComputeBudget111111111111111111111111111111",
-            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
         ],
         "token_bal_change": [],
         "sol_bal_change": []
     },
     {
-        "blockTime": 1712556351,
-        "slot": 258965798,
-        "txHash": "4CtPKVfJuxDMtYJgbGtBJRNky6ULC5cwyie4FABhKA5g5KiaeyzJip9u6ePqjp2iKhEqt8GTKgDPAxmB6JC8ds2H",
-        "fee": 129999,
+        "blockTime": 1715460623,
+        "slot": 265214193,
+        "txHash": "TLcTHYduKToDuswt1xatueWn3Sso21ZQGpy65EcXzG3FgHfLrXrZu4ieUxakeU8HZTorhPr1mGrVQ1mrqHF8vvM",
+        "fee": 705000,
         "status": "Success",
         "signer": [
             "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
         ],
+        "tags": [
+            "add_liquidity",
+            "transfer"
+        ],
         "parsedInstruction": [
             {
-                "type": "addLiquidityByStrategy",
+                "type": "addLiquidityByStrategyOneSide",
                 "program": "lb_clmm",
                 "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
                 "priority": 1
+            },
+            {
+                "type": "transfer",
+                "program": "system",
+                "programId": "11111111111111111111111111111111",
+                "priority": 0
+            },
+            {
+                "type": "syncNative",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
             }
         ],
         "parsedInstructions": [],
-        "sol_value": "129999",
+        "sol_value": "230000704977",
         "extra_data": {},
         "programIds": [
             "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
             "ComputeBudget111111111111111111111111111111",
-            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
         ],
         "token_bal_change": [],
         "sol_bal_change": []
     },
     {
-        "blockTime": 1712556313,
-        "slot": 258965719,
-        "txHash": "47yhWDkcm8t2ek3YyUkV6Evy4U7Djv2AyAnh4dqjdLpjkKReNBRNQyaM6LHUvZAatguH8FTt5kqL5VmUTiewY4cV",
+        "blockTime": 1715460601,
+        "slot": 265214145,
+        "txHash": "3JCpwtDoSysug6GmsLCN1zqypDuuTjaARqo7ooBpeLiGuJ9ehFu89ZUtQDUJGu13xfgRVrZxidgPk8BYdQK7Ricq",
+        "fee": 119996,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "tags": [
+            "remove_liquidity"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "removeLiquidityByRange",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "230317205334",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1715460457,
+        "slot": 265213835,
+        "txHash": "2CSiLuYzFXbXMiLw1gTytVpaHATouVJv6wNpJbKzxsuzw1bbikG8LPVVG2L9bNXj2rZfnmgwrj2ziKCnM3ffMpMY",
+        "fee": 82301,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "tags": [
+            "add_liquidity",
+            "transfer"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "addLiquidityByStrategyOneSide",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "transfer",
+                "program": "system",
+                "programId": "11111111111111111111111111111111",
+                "priority": 0
+            },
+            {
+                "type": "syncNative",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "238000082301",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1715460354,
+        "slot": 265213610,
+        "txHash": "5gZnDYw3vLKFnCaTeWpD6B4JpmYw8CFuAAuENuRj1HrUFAktreRWWthDfdyEotFQT1vH6uVX9QJX3a3R4ZRGnc8J",
+        "fee": 1004999,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "tags": [
+            "remove_liquidity"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "removeLiquidityByRange",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "289335416480",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1715460236,
+        "slot": 265213342,
+        "txHash": "59Q9j2wBtZtstUKQdCvt3iC6hbZ4jc8px6BPGJe2ty6gDg4cMbrXPThCFvAzXQ45BoNS5RK1VDVULiBdZxQ81Jh1",
+        "fee": 769498,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "tags": [
+            "add_liquidity",
+            "transfer"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "addLiquidityByStrategyOneSide",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "transfer",
+                "program": "system",
+                "programId": "11111111111111111111111111111111",
+                "priority": 0
+            },
+            {
+                "type": "syncNative",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "316000769478",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1715460132,
+        "slot": 265213113,
+        "txHash": "32VSmom48KFVgXrKE2oFMc2o5RgAMTiSpoWDZR2q3jN7qP8xdS8ouZHK28DJBMcpCNC4Qz8XbnKM36mCVVyL7P4e",
+        "fee": 145084,
+        "status": "Success",
+        "signer": [
+            "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "tags": [
+            "remove_liquidity"
+        ],
+        "parsedInstruction": [
+            {
+                "type": "removeLiquidityByRange",
+                "program": "lb_clmm",
+                "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                "priority": 1
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "315230850090",
+        "extra_data": {},
+        "programIds": [
+            "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+            "ComputeBudget111111111111111111111111111111",
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+            "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "11111111111111111111111111111111"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1715460064,
+        "slot": 265212967,
+        "txHash": "4A9qYNb6bdLmTgtYkzSHqoqMNS2sR6zRbL4ccZx5q8g7ZdpVS4EdFRZns2WLJGC81iu7DD4N2tYHieyYHDWS6VjV",
+        "fee": 9158,
+        "status": "Success",
+        "signer": [
+            "7gcTDMy6dazrzQ4RZKSBvdUVKhWr49zB5yp47ppr56Au"
+        ],
+        "tags": [],
+        "parsedInstruction": [
+            {
+                "type": "mintV1",
+                "program": "bubblegum",
+                "programId": "BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY",
+                "priority": 1
+            },
+            {
+                "type": "mintV1",
+                "program": "bubblegum",
+                "programId": "BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY",
+                "priority": 1
+            },
+            {
+                "type": "mintV1",
+                "program": "bubblegum",
+                "programId": "BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY",
+                "priority": 1
+            },
+            {
+                "type": "mintV1",
+                "program": "bubblegum",
+                "programId": "BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY",
+                "priority": 1
+            }
+        ],
+        "parsedInstructions": [],
+        "sol_value": "9158",
+        "extra_data": {},
+        "programIds": [
+            "BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY",
+            "noopb9bkMVfRPU8AsbpTUg8AQkHtKwMYZiFUjNRtMmV",
+            "cmtDvXumGCrqC1Age74AVPhSRVXJMd8PJS91L8KbNCK",
+            "ComputeBudget111111111111111111111111111111"
+        ],
+        "token_bal_change": [],
+        "sol_bal_change": []
+    },
+    {
+        "blockTime": 1715459766,
+        "slot": 265212317,
+        "txHash": "46LDZ9iBq3EyBVwkSNVXbvqxmsiD5Kkf6vCXGUNNsiX5yf3D6isJverVvmU4jXUDaRe1A3WGw5nagkXcvcaHjdiz",
         "fee": 10497,
         "status": "Success",
         "signer": [
             "6tZKhke81q3qTaU1JAPwAK66Wuw8JP6RykRMxFT5vFMK"
+        ],
+        "tags": [
+            "open_position",
+            "add_liquidity",
+            "transfer"
         ],
         "parsedInstruction": [
             {
@@ -173,15 +454,34 @@
                 "program": "lb_clmm",
                 "programId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
                 "priority": 1
+            },
+            {
+                "type": "transfer",
+                "program": "system",
+                "programId": "11111111111111111111111111111111",
+                "priority": 0
+            },
+            {
+                "type": "syncNative",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
+            },
+            {
+                "type": "closeAccount",
+                "program": "spl-token",
+                "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "priority": 0
             }
         ],
         "parsedInstructions": [],
-        "sol_value": "57416577",
+        "sol_value": "313057416516",
         "extra_data": {},
         "programIds": [
             "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
             "ComputeBudget111111111111111111111111111111",
             "11111111111111111111111111111111",
+            "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
             "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         ],
         "token_bal_change": [],
